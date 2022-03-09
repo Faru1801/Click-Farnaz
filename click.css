@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.time {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.title {
+    color: rgb(6, 12, 8);
+    text-align: center;
+    width: 85%;
+    letter-spacing: 1.1rem;
+    margin: 5% auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.box1 {
+    background-color: rgb(114, 112, 108);
+}
+
+.box2 {
+    position: absolute;
+    background-color: rgb(14, 145, 206);
+}
+
+.box3 {
+    background-color: rgb(17, 54, 54);
+}
+
+.box2:hover {
+    background-color: grey !important;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
